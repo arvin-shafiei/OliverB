@@ -70,7 +70,6 @@
                 </a>
                 <nav class="flex flex-wrap items-center gap-4 text-sm font-medium text-slate-500 dark:text-slate-300">
                     <a class="hover:text-olive-600 dark:hover:text-olive-200" href="#work">Work with us</a>
-                    <a class="hover:text-olive-600 dark:hover:text-olive-200" href="#why">Why Olive</a>
                     <a class="hover:text-olive-600 dark:hover:text-olive-200" href="#start">Holler at us</a>
                     <a class="hover:text-olive-600 dark:hover:text-olive-200" href="#contact">Contact</a>
                 </nav>
@@ -87,12 +86,12 @@
             <div class="pointer-events-none absolute inset-0 -z-10 bg-olive-grid bg-[size:40px_40px] opacity-40 dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)]"></div>
             <div class="mx-auto flex max-w-6xl flex-col gap-12 px-6 py-24 sm:py-32 lg:flex-row lg:items-end">
                 <div class="max-w-3xl space-y-6">
-                    <p class="text-sm font-semibold uppercase tracking-[0.4em] text-olive-600 dark:text-olive-200">Software product studio</p>
-                    <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">Olive</h1>
-                    <p class="max-w-2xl text-lg text-slate-600 dark:text-slate-200">Making intuitive and simple software.</p>
+                    <p class="text-sm font-semibold uppercase tracking-[0.4em] text-olive-600 dark:text-olive-200">Software Product Studio</p>
+                    <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">We build software products</h1>
+                    <p class="max-w-2xl text-lg text-slate-600 dark:text-slate-200">Web apps, mobile products, and internal tools for teams who need to move fast.</p>
                     <div class="flex flex-wrap gap-4">
-                        <a class="inline-flex items-center justify-center rounded-full bg-olive-600 px-6 py-3 text-sm font-semibold text-white shadow-subtle transition hover:bg-olive-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-300" href="#start">Start a project</a>
-                        <a class="inline-flex items-center justify-center rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-olive-500 hover:text-olive-600 dark:border-white/20 dark:text-slate-200 dark:hover:border-olive-400 dark:hover:text-olive-200" href="#why">Why the name Olive?</a>
+                        <a class="inline-flex items-center justify-center rounded-full bg-olive-600 px-6 py-3 text-sm font-semibold text-white shadow-subtle transition hover:bg-olive-500 hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-300" href="#start">Start a project</a>
+                        <a class="inline-flex items-center justify-center rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-olive-500 hover:text-olive-600 hover:scale-105 dark:border-white/20 dark:text-slate-200 dark:hover:border-olive-400 dark:hover:text-olive-200" href="#contact">Get in touch</a>
                     </div>
                 </div>
             </div>
@@ -101,8 +100,22 @@
         <section id="work" class="border-y border-slate-200/70 bg-slate-100/70 py-20 dark:border-white/10 dark:bg-slate-950/70">
             <div class="mx-auto max-w-6xl space-y-10 px-6">
                 <div class="max-w-3xl space-y-4">
-                    <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Who do we work with</h2>
-                    <p class="text-lg text-slate-600 dark:text-slate-200">We partner with founders, operators, and enterprises that need reliable software velocity who are trying to make a difference and have impact on the world.</p>
+                    <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Who we work with</h2>
+                    <p class="text-lg text-slate-600 dark:text-slate-200">We partner with founders, startups, and companies that need reliable software development.</p>
+                </div>
+                <div class="grid gap-6 md:grid-cols-3">
+                    <div class="rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-subtle backdrop-blur transition hover:scale-105 dark:border-white/10 dark:bg-white/5">
+                        <h3 class="mb-2 text-xl font-semibold text-slate-900 dark:text-white">Startups</h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-300">Fast product development for teams that need to ship quickly and iterate.</p>
+                    </div>
+                    <div class="rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-subtle backdrop-blur transition hover:scale-105 dark:border-white/10 dark:bg-white/5">
+                        <h3 class="mb-2 text-xl font-semibold text-slate-900 dark:text-white">Founders</h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-300">Turn your ideas into working products with reliable technical execution.</p>
+                    </div>
+                    <div class="rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-subtle backdrop-blur transition hover:scale-105 dark:border-white/10 dark:bg-white/5">
+                        <h3 class="mb-2 text-xl font-semibold text-slate-900 dark:text-white">Companies</h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-300">Custom internal tools and systems that improve team productivity.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -112,16 +125,29 @@
             <div class="mx-auto max-w-6xl space-y-8 px-6">
                 <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Previously worked with</h2>
                 <div id="logo-grid" class="grid gap-6 rounded-3xl border border-slate-200 bg-white/80 p-10 text-center text-sm text-slate-500 shadow-subtle backdrop-blur dark:border-white/10 dark:bg-white/5 dark:text-slate-300" hx-get="partials/logos.html" hx-trigger="load" hx-swap="innerHTML" hx-target="#logo-grid">
-                    <p>Loading sample logos…</p>
+                    <p>Loading logos...</p>
                 </div>
             </div>
         </section>
 
-        <section id="why" class="border-y border-slate-200/70 bg-white py-20 dark:border-white/10 dark:bg-slate-950/70">
-            <div class="mx-auto max-w-5xl space-y-6 px-6">
-                <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Why the name “Olive”</h2>
-                <div id="why-content" class="rounded-3xl border border-olive-200 bg-olive-50/80 p-8 text-slate-700 shadow-subtle backdrop-blur dark:border-white/10 dark:bg-white/5 dark:text-slate-200" hx-get="partials/why-olive.html" hx-trigger="load" hx-swap="innerHTML" hx-target="#why-content">
-                    <p>Gathering the story…</p>
+        <section id="team" class="border-y border-slate-200/70 bg-white py-20 dark:border-white/10 dark:bg-slate-950/70">
+            <div class="mx-auto max-w-6xl space-y-10 px-6">
+                <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Founder</h2>
+                <div class="flex flex-col items-center gap-8 rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-50 to-olive-50/30 p-10 shadow-subtle backdrop-blur transition hover:scale-[1.02] dark:border-white/10 dark:from-white/5 dark:to-olive-900/10 md:flex-row md:items-start">
+                    <img src="assets/arvin.jpeg" alt="Arvin Shafiei" class="h-32 w-32 rounded-full object-cover ring-4 ring-olive-300 transition hover:ring-8 hover:ring-olive-200 dark:ring-olive-700 dark:hover:ring-olive-800">
+                    <div class="flex-1 space-y-3 text-center md:text-left">
+                        <h3 class="text-2xl font-semibold text-slate-900 dark:text-white">Arvin Shafiei</h3>
+                        <p class="text-sm font-medium uppercase tracking-wide text-olive-600 dark:text-olive-200">Founder & Director</p>
+                        <p class="text-slate-600 dark:text-slate-300">Building software products and working on projects that matter. Also runs <a href="https://retard.club" target="_blank" class="text-olive-600 hover:underline dark:text-olive-200">retard.club</a>, a clothing line.</p>
+                        <div class="flex flex-wrap justify-center gap-3 pt-2 md:justify-start">
+                            <a class="inline-flex items-center gap-2 rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 transition hover:border-olive-400 hover:text-olive-600 hover:scale-105 dark:border-white/20 dark:text-slate-200 dark:hover:border-olive-400 dark:hover:text-olive-200" href="https://www.linkedin.com/in/arvin-shafiei/" target="_blank">
+                                LinkedIn
+                            </a>
+                            <a class="inline-flex items-center gap-2 rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 transition hover:border-olive-400 hover:text-olive-600 hover:scale-105 dark:border-white/20 dark:text-slate-200 dark:hover:border-olive-400 dark:hover:text-olive-200" href="https://github.com/arvin-shafiei" target="_blank">
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -130,15 +156,16 @@
             <div class="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_bottom,_rgba(124,167,101,0.12),_transparent_65%)]"></div>
             <div class="mx-auto max-w-5xl space-y-10 px-6">
                 <div class="max-w-3xl space-y-4">
-                    <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Start a project in one step</h2>
+                    <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Start a project</h2>
+                    <p class="text-lg text-slate-600 dark:text-slate-300">Email us with what you're building and we'll reply within one business day.</p>
                 </div>
-                <div class="grid gap-6 rounded-3xl border border-slate-200 bg-white/80 p-8 shadow-subtle backdrop-blur dark:border-white/10 dark:bg-white/5 sm:grid-cols-[1fr_auto] sm:items-center">
+                <div class="grid gap-6 rounded-3xl border border-slate-200 bg-gradient-to-br from-white to-olive-50/40 p-8 shadow-subtle backdrop-blur transition hover:scale-[1.02] dark:border-white/10 dark:from-white/5 dark:to-olive-900/10 sm:grid-cols-[1fr_auto] sm:items-center">
                     <div class="space-y-3 text-sm text-slate-600 dark:text-slate-300">
-                        <p class="text-base font-medium text-slate-900 dark:text-white">Email us with a snapshot of what you’re building and we’ll reply within one business day.</p>
-                       <p>Who, What, Where and we'll be there</p>
+                        <p class="text-base font-medium text-slate-900 dark:text-white">Share what you're building, who it's for, and when you need it.</p>
+                       <p>We'll respond within 24 hours with next steps.</p>
                     </div>
-                    <a class="inline-flex items-center justify-center rounded-full bg-olive-600 px-6 py-3 text-sm font-semibold text-white shadow-subtle transition hover:bg-olive-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-300" href="mailto:director@arvinfinance.com?subject=Start%20a%20project%20with%20Olive&body=Share%20links%2C%20metrics%2C%20and%20timelines%20here.%20We%E2%80%99ll%20respond%20within%20one%20business%20day.">
-                        Email Olive
+                    <a class="inline-flex items-center justify-center rounded-full bg-olive-600 px-6 py-3 text-sm font-semibold text-white shadow-subtle transition hover:bg-olive-500 hover:scale-110 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-300" href="mailto:director@arvinfinance.com?subject=Start%20a%20project%20with%20Olive&body=Hi%20Arvin,%0A%0AHere's%20what%20I'm%20working%20on:%0A%0AThe%20idea:%0A%0AWho%20it's%20for:%0A%0AWhen%20I%20need%20it:%0A%0ABudget%20range:%0A%0AThanks!">
+                        Email us
                     </a>
                 </div>
             </div>
@@ -147,22 +174,38 @@
         <section id="contact" class="border-y border-slate-200/70 bg-slate-100/70 py-20 dark:border-white/10 dark:bg-slate-950/70">
             <div class="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-2">
                 <div class="space-y-4">
-                    <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Contact Olive</h2>
-                        <li><span class="font-semibold text-slate-900 dark:text-white">LinkedIn:</span> <a class="text-olive-600 hover:underline dark:text-olive-200" href="https://www.linkedin.com/company/olive-uk/">linkedin.com/company/olive-uk</a></li>
-                        <li><span class="font-semibold text-slate-900 dark:text-white">Founder:</span> <a class="text-olive-600 hover:underline dark:text-olive-200" href="https://www.linkedin.com/in/arvin-shafiei/">Arvin Shafiei</a></li>
+                    <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Contact</h2>
+                    <p class="text-lg text-slate-600 dark:text-slate-300">Get in touch with us</p>
+                    <ul class="space-y-2 text-slate-600 dark:text-slate-300">
+                        <li class="flex items-center gap-2">
+                            <span class="font-semibold text-slate-900 dark:text-white">Company:</span> 
+                            <a class="text-olive-600 hover:underline dark:text-olive-200" href="https://www.linkedin.com/company/olive-uk/">Olive UK on LinkedIn</a>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="font-semibold text-slate-900 dark:text-white">Founder:</span> 
+                            <a class="text-olive-600 hover:underline dark:text-olive-200" href="https://www.linkedin.com/in/arvin-shafiei/">Arvin Shafiei</a>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="font-semibold text-slate-900 dark:text-white">GitHub:</span> 
+                            <a class="text-olive-600 hover:underline dark:text-olive-200" href="https://github.com/arvin-shafiei">arvin-shafiei</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="grid gap-4">
-                    <a class="flex items-center justify-between rounded-3xl border border-slate-200 bg-white/80 p-6 text-left text-sm font-medium text-slate-700 shadow-subtle transition hover:border-olive-400 hover:text-olive-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:border-olive-400 dark:hover:text-olive-200" href="https://www.linkedin.com/company/olive-uk/">
-                        Company LinkedIn
+                    <a class="flex items-center justify-between rounded-3xl border border-slate-200 bg-white/80 p-6 text-left text-sm font-medium text-slate-700 shadow-subtle transition hover:border-olive-400 hover:scale-105 hover:text-olive-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:border-olive-400 dark:hover:text-olive-200" href="https://www.linkedin.com/company/olive-uk/">
+                        <span>Company LinkedIn</span>
                         <span aria-hidden="true">↗</span>
                     </a>
-                    <a class="flex items-center justify-between rounded-3xl border border-slate-200 bg-white/80 p-6 text-left text-sm font-medium text-slate-700 shadow-subtle transition hover:border-olive-400 hover:text-olive-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:border-olive-400 dark:hover:text-olive-200" href="https://www.linkedin.com/in/arvin-shafiei/">
-                        Arvin Shafiei on LinkedIn
+                    <a class="flex items-center justify-between rounded-3xl border border-slate-200 bg-white/80 p-6 text-left text-sm font-medium text-slate-700 shadow-subtle transition hover:border-olive-400 hover:scale-105 hover:text-olive-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:border-olive-400 dark:hover:text-olive-200" href="https://www.linkedin.com/in/arvin-shafiei/">
+                        <span>Arvin Shafiei on LinkedIn</span>
                         <span aria-hidden="true">↗</span>
                     </a>
-                    <a class="flex items-center justify-between rounded-3xl border border-slate-200 bg-white/80 p-6 text-left text-sm font-medium text-slate-700 shadow-subtle transition hover:border-olive-400 hover:text-olive-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:border-olive-400 dark:hover:text-olive-200" href="https://github.com/arvin-shafiei">
-                        GitHub
+                    <a class="flex items-center justify-between rounded-3xl border border-slate-200 bg-white/80 p-6 text-left text-sm font-medium text-slate-700 shadow-subtle transition hover:border-olive-400 hover:scale-105 hover:text-olive-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:border-olive-400 dark:hover:text-olive-200" href="https://github.com/arvin-shafiei">
+                        <span>GitHub</span>
+                        <span aria-hidden="true">↗</span>
+                    </a>
+                    <a class="flex items-center justify-between rounded-3xl border border-slate-200 bg-white/80 p-6 text-left text-sm font-medium text-slate-700 shadow-subtle transition hover:border-olive-400 hover:scale-105 hover:text-olive-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:border-olive-400 dark:hover:text-olive-200" href="mailto:director@arvinfinance.com">
+                        <span>Email</span>
                         <span aria-hidden="true">↗</span>
                     </a>
                 </div>
